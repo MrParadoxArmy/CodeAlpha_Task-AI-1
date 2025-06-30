@@ -23,5 +23,26 @@ The **Language Translation Tool** is a Python-based application that allows user
 - CLI or GUI-based interface
 
 ## 📁 Project Structure
+ Language-Translation-Tool/
+│
+├── translator.py # Main translation script
+├── gui.py # GUI interface (optional)
+├── requirements.txt # List of dependencies
+└── README.md # Project documentation
 
 
+## ✅ Requirements
+
+Before running the project, install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+
+pip install googletrans==4.0.0-rc1
+
+Example
+text
+Copy code
+Input Text: नमस्ते दुनिया
+Target Language: en
+Output: Hello World
